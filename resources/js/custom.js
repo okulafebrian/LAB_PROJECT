@@ -11,4 +11,8 @@ $(document).ready(function () {
     $('#quantity').on('change', function () {
         $('input[name="quantity"]').val($(this).val())
     })
+
+    $('select[name="category"]').on('change', function () {
+        this.form.submit()
+    })
 })

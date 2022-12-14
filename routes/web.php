@@ -14,14 +14,18 @@ Auth::routes();
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('profile', [ProfileController::class, 'index'])->name('profile');
+Route::resource('carts', CartController::class);
+Route::resource('purchases', PurchaseController::class);
+Route::resource('products', ProductController::class);
 
 Route::prefix('search')->name('search.')->group(function () {
     Route::get('user', [SearchController::class, 'user'])->name('user');
     Route::get('admin', [SearchController::class, 'admin'])->name('admin');
 });
 
-Route::resource('carts', CartController::class);
-Route::resource('purchases', PurchaseController::class);
-Route::resource('products', ProductController::class);
-Route::resource('categories', CategoryController::class);
+Route::prefix('categories')->name('categories.')->group(function () {
+    Route::get('{category}', [CategoryController::class, 'show'])->name('show');
+});
+
+
 

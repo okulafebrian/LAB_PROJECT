@@ -11,9 +11,9 @@
 
         <div class="card border-0 shadow-sm rounded-3">
             <div class="card-body p-4">
-                <div class="row g-3">
-                    <div class="col-md">
-                        <form class="d-flex" role="search" action="{{ route('search.admin') }}">
+                <form role="search" action="{{ route('search.admin') }}">
+                    <div class="row g-3">
+                        <div class="col-md">
                             <div class="input-group">
                                 <input type="search" class="form-control" placeholder="Search" name="search"
                                     value="{{ request('search') }}">
@@ -21,17 +21,20 @@
                                     <i class="bi bi-search"></i>
                                 </button>
                             </div>
-                        </form>
+                        </div>
+                        <div class="col-md-4">
+                            <select class="form-select" name="category">
+                                <option value="0" selected>All Category</option>
+                                @foreach ($categories as $category)
+                                    <option value="{{ $category->id }}"
+                                        {{ request('category') == $category->id ? 'selected' : '' }}>
+                                        {{ $category->name }}
+                                    </option>
+                                @endforeach
+                            </select>
+                        </div>
                     </div>
-                    <div class="col-md-4">
-                        <select class="form-select" name="category_id">
-                            <option selected disabled>Category</option>
-                            @foreach ($categories as $category)
-                                <option value="{{ $category->id }}">{{ $category->name }}</option>
-                            @endforeach
-                        </select>
-                    </div>
-                </div>
+                </form>
 
                 @if ($products->count() > 0)
                     <hr class="mb-0 opacity-100" style="border-color: #DEE2E6">
@@ -121,7 +124,7 @@
                             @endforeach
                         </tbody>
                     </table>
-                @elseif(request('search'))
+                @elseif(request('search') || request('category'))
                     <div class="card border-0 bg-light rounded-4 mt-4">
                         <div class="card-body text-center">
                             <img src="/storage/assets/empty.webp" width="20%">
