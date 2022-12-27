@@ -1,16 +1,16 @@
 <x-app title="My Cart">
-    <x-navbar :categories='$categories' :cartCount='$cartCount'></x-navbar>
+    <x-navbar :categories='$categories' :cartCount='$cartCount' />
 
     <div class="container py-4">
         @if ($carts->count() > 0)
-            <h4 class="mb-4">My Cart</h4>
+            <h4 class="mb-4">Cart</h4>
 
             <div class="row">
                 <div class="col-lg-8">
                     @foreach ($carts as $cart)
                         <div class="card border-0">
                             <div class="card-body">
-                                <input type="hidden" name="product_id[]" value="{{ $cart->product->id }}">
+                                <input type="hidden" name="product_id[]" value="{{ $cart->product_id }}">
                                 <input type="hidden" name="quantity[]" value="{{ $cart->quantity }}">
 
                                 <div class="row">
@@ -55,7 +55,7 @@
                         <div class="card-body p-4">
                             <h5 class="mb-3">Shopping Summary</h5>
                             <div class="d-flex justify-content-between">
-                                <span>Total Price ({{ $cart->sum('quantity') }} items)</span>
+                                <span>Total Price ({{ $cartCount }} items)</span>
                                 <span>Rp{{ number_format($totalPrice, 0, '.', '.') }}</span>
                             </div>
 
@@ -68,8 +68,11 @@
 
                             <form method="POST" action="{{ route('purchases.store') }}">
                                 @csrf
+
+                                <input type="hidden" name="total_price" value="{{ $totalPrice }}">
+
                                 <button type="submit" class="btn btn-primary w-100 py-2 rounded-3">
-                                    Buy ({{ $cart->sum('quantity') }})
+                                    Buy ({{ $cartCount }})
                                 </button>
                             </form>
                         </div>

@@ -1,6 +1,6 @@
 <x-app title="Login">
     <div class="container py-5">
-        <div class="text-center mb-5">
+        <div class="text-center mb-4">
             <a href="{{ route('home') }}">
                 <img src="/storage/assets/logo_2.png" alt="Barbatos" width="180">
             </a>
@@ -8,8 +8,8 @@
 
         <div class="row justify-content-center">
             <div class="col-lg-5 col-md-8">
-                <div class="card border-0 shadow rounded-4">
-                    <div class="card-body p-4">
+                <div class="card card-custom">
+                    <div class="card-body p-md-5">
                         <div class="text-center mb-4">
                             <h4 class="mb-1">Login</h4>
                             <small class="text-muted">Don't have an account yet? Let's <a href="{{ route('register') }}"

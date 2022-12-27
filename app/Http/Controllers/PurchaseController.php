@@ -13,24 +13,15 @@ class PurchaseController extends Controller
 {
     public function __construct()
     {
-        $this->middleware(['auth']);
-        $this->middleware(['customer']);
+        $this->middleware(['auth', 'customer']);
     }
 
     public function index()
     {   
-        $purchases = Purchase::latest()->where('user_id', auth()->user()->id)->get();
-        
-        foreach ($purchases as $purchase) {
-            $totalPrice[$purchase->id] = 0;
-            foreach ($purchase->products as $product) {
-                $totalPrice[$purchase->id] += $product->price * $product->pivot->quantity;
-            }   
-        }
+        $purchases = Purchase::where('user_id', auth()->user()->id)->latest()->get();
         
         return view('purchases.index', [
             'purchases' => $purchases,
-            'totalPrice' => $totalPrice,
             'cartCount' => Cart::where('user_id', auth()->user()->id)->sum('quantity'),
             'categories' => Category::orderBy('name')->get()
         ]);
@@ -45,7 +36,8 @@ class PurchaseController extends Controller
     {   
         if ($request->product_id) {
             $purchase = Purchase::create([
-                'user_id' => auth()->user()->id
+                'user_id' => auth()->user()->id,
+                'total_price' => $request->quantity * $request->price
             ]);
 
             PurchaseDetail::create([
@@ -54,28 +46,25 @@ class PurchaseController extends Controller
                 'quantity' => $request->quantity,
             ]);
         } else {
-            DB::transaction(function () {
-                // INSERT INTO PURCHASES TABLE
-                $purchase = Purchase::create([
-                    'user_id' => auth()->user()->id
+            // INSERT INTO PURCHASES TABLE
+            $purchase = Purchase::create([
+                'user_id' => auth()->user()->id,
+                'total_price' => $request->total_price
+            ]);
+
+            // INSERT INTO PURCHASE DETAILS TABLE
+            foreach (auth()->user()->carts as $cart) {
+                PurchaseDetail::create([
+                    'purchase_id' => $purchase->id,
+                    'product_id' => $cart->product_id,
+                    'quantity' => $cart->quantity,
                 ]);
 
-                // INSERT INTO PURCHASE DETAILS TABLE
-                $carts = Cart::where('user_id', auth()->user()->id)->get();
-
-                foreach ($carts as $cart) {
-                    PurchaseDetail::create([
-                        'purchase_id' => $purchase->id,
-                        'product_id' => $cart->product_id,
-                        'quantity' => $cart->quantity,
-                    ]);
-
-                    $cart->delete();
-                }
-            });
+                $cart->delete();
+            }
         }
     
-        return redirect()->back();
+        return redirect()->back()->with('success', 'Thank you for your purchase!');
     }
 
     public function show(Purchase $purchase)

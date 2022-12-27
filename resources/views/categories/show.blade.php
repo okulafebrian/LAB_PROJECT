@@ -1,5 +1,5 @@
 <x-app title="{{ $category->name }}">
-    <x-navbar :categories='$categories' :cartCount='$cartCount'></x-navbar>
+    <x-navbar :categories='$categories' :cartCount='$cartCount' />
 
     <div class="container py-4">
         <nav class="mb-4"
@@ -12,9 +12,9 @@
 
         <h4 class="mb-3">{{ $category->name }}</h4>
 
-        @if ($category->products->count() > 0)
+        @if ($products->count() > 0)
             <div class="row row-cols-lg-5 row-cols-md-3 row-cols-2 g-2 mb-3">
-                @foreach ($category->products as $product)
+                @foreach ($products as $product)
                     <div class="col">
                         <a href="{{ route('products.show', $product) }}"
                             class="card card-product rounded-3 text-decoration-none text-dark h-100" role="button">
@@ -35,6 +35,10 @@
                         </a>
                     </div>
                 @endforeach
+            </div>
+
+            <div class="d-flex justify-content-end">
+                {{ $products->links() }}
             </div>
         @else
             <div class="card border-0 bg-light rounded-4">

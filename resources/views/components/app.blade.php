@@ -7,10 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="storage/assets/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="storage/assets/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="storage/assets/favicon-16x16.png">
-    <link rel="manifest" href="storage/assets/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="/storage/assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/storage/assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/storage/assets/favicon-16x16.png">
+    <link rel="manifest" href="/storage/assets/site.webmanifest">
 
     <title>{{ $title }}</title>
 
@@ -20,11 +20,7 @@
 
 <body>
     <div id="app">
-        @if (isset($navbar))
-            <x-navbar />
-        @elseif (isset($navbarAdmin))
-            <x-navbar-admin />
-        @endif
+        <x-alert></x-alert>
 
         <main>
             {{ $slot }}

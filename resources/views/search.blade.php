@@ -1,5 +1,5 @@
 <x-app title="Search">
-    <x-navbar :categories='$categories' :cartCount='$cartCount'></x-navbar>
+    <x-navbar :categories='$categories' :cartCount='$cartCount' />
 
     <div class="container py-4">
         @if ($products->count() > 0)

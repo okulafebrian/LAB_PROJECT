@@ -1,15 +1,15 @@
-<x-app title="Admin Dashboard">
-    <x-navbar-admin />
+<x-app title="Manage Product">
+    <x-navbar :categories='$categories' />
 
     <div class="container py-4">
         <div class="d-flex justify-content-between align-items-end mb-4">
             <h4 class="mb-0">Manage Product</h4>
-            <a href="{{ route('products.create') }}" class="btn btn-primary rounded-3 px-4">
+            <a href="{{ route('products.create') }}" class="btn btn-primary rounded-3">
                 Add Product
             </a>
         </div>
 
-        <div class="card border-0 shadow-sm rounded-3">
+        <div class="card border-0 shadow-sm rounded-3 mb-4">
             <div class="card-body p-4">
                 <form role="search" action="{{ route('search.admin') }}">
                     <div class="row g-3">
@@ -41,7 +41,7 @@
 
                     <table class="table">
                         <thead>
-                            <tr class="text-secondary">
+                            <tr>
                                 <th class="col-8">Product Info</th>
                                 <th>Price</th>
                                 <th></th>
@@ -51,20 +51,23 @@
                             @foreach ($products as $product)
                                 <tr>
                                     <td class="py-3">
-                                        <a href="{{ route('products.show', $product) }}" target="_blank"
-                                            class="text-decoration-none text-dark">
-                                            <div class="row g-3">
-                                                <div class="col-md-2 col-6">
+                                        <div class="row g-3">
+                                            <div class="col-md-2 col-6">
+                                                <a href="{{ route('products.show', $product) }}">
                                                     <img src="/storage/products/{{ $product->photo }}" width="100%"
                                                         class="rounded-3">
-                                                </div>
-                                                <div class="col-md col-12">
-                                                    <h6>{{ $product->name }}</h6>
-                                                    <span>{{ $product->category->name }}</span>
-                                                </div>
-
+                                                </a>
                                             </div>
-                                        </a>
+                                            <div class="col-md col-12">
+                                                <h6>
+                                                    <a href="{{ route('products.show', $product) }}"
+                                                        class="text-decoration-none text-dark">
+                                                        {{ $product->name }}
+                                                    </a>
+                                                </h6>
+                                                <span>{{ $product->category->name }}</span>
+                                            </div>
+                                        </div>
                                     </td>
                                     <td class="align-middle">Rp{{ number_format($product->price, 0, '.', '.') }}</td>
                                     <td class="text-end align-middle">

@@ -12,18 +12,11 @@ class HomeController extends Controller
 {
 
     public function index()
-    {
-        if (auth()->user() && auth()->user()->role == 'ADMIN') {
-            return view('dashboard', [
-                'products' => Product::latest()->paginate(10),
-                'categories' => Category::orderBy('name')->get()
-            ]);
-        } else {
-            return view('home', [
-                'products' => Product::latest()->paginate(10),
-                'cartCount' => auth()->check() ? Cart::where('user_id', auth()->user()->id)->sum('quantity') : 0,
-                'categories' => Category::orderBy('name')->get()
-            ]);
-        }
+    {   
+        return view('home', [
+            'cartCount' => auth()->check() ? Cart::where('user_id', auth()->user()->id)->sum('quantity') : 0,
+            'categories' => Category::orderBy('name')->get(),
+            'existCategories' => Category::whereHas('products')->orderBy('name')->get()
+        ]);
     }
 }

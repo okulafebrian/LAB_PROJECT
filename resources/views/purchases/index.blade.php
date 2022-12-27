@@ -1,11 +1,11 @@
 <x-app title="My Purchases">
-    <x-navbar :categories='$categories' :cartCount='$cartCount'></x-navbar>
+    <x-navbar :categories='$categories' :cartCount='$cartCount' />
 
     <div class="container py-4">
-        <h4 class="mb-3">My Purchases</h4>
+        <h4 class="mb-3">History</h4>
 
         <div class="row row-cols-1 g-4">
-            @foreach ($purchases as $purchase)
+            @forelse ($purchases as $purchase)
                 <div class="col-lg-8">
                     <div class="card border-0 rounded-3 shadow-sm">
                         <div class="card-body p-4">
@@ -25,7 +25,8 @@
                                                             width="100%">
                                                     </div>
                                                     <div class="col">
-                                                        <h6 class="mb-1 text-truncate-custom">{{ $product->name }}</h6>
+                                                        <h6 class="mb-1 text-truncate-custom">{{ $product->name }}
+                                                        </h6>
                                                         <small class="text-muted">{{ $product->pivot->quantity }} x
                                                             Rp{{ number_format($product->price, 0, '.', '.') }}</small>
                                                     </div>
@@ -43,13 +44,23 @@
                             </div>
 
                             <div class="d-flex justify-content-between">
-                                <h5>Total Payment</h5>
-                                <h5>Rp{{ number_format($totalPrice[$purchase->id], 0, '.', '.') }}</h5>
+                                <h5>Total Payment ({{ $purchase->products->sum('pivot.quantity') }} items)</h5>
+                                <h5>Rp{{ number_format($purchase->total_price, 0, '.', '.') }}</h5>
                             </div>
                         </div>
                     </div>
                 </div>
-            @endforeach
+            @empty
+                <div class="card border-0 bg-light rounded-4">
+                    <div class="card-body text-center">
+                        <img src="/storage/assets/empty.webp" width="20%">
+                        <h4 class="text-muted">You have no transactions here yet</h4>
+                        <p class="text-muted">Let's buy your dream items!</p>
+                        <a href="{{ route('home') }}" class="btn btn-primary rounded-3 px-4 py-2 mb-4">Start
+                            Shopping</a>
+                    </div>
+                </div>
+            @endforelse
         </div>
     </div>
 </x-app>

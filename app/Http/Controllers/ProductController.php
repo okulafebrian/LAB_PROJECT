@@ -12,8 +12,7 @@ class ProductController extends Controller
 {
     public function __construct()
     {
-        $this->middleware(['auth'])->except('show');
-        $this->middleware(['admin'])->except('show');
+        $this->middleware(['auth', 'admin'])->except('show');
     }
     
     public function index()
@@ -46,7 +45,7 @@ class ProductController extends Controller
             'photo' => $proofNameToStore
         ]);
 
-        return redirect()->route('home');
+        return redirect()->route('dashboard')->with('success', 'Product sucessfully added');
     }
 
     public function show(Product $product)
@@ -89,14 +88,17 @@ class ProductController extends Controller
             'photo' => $proofNameToStore
         ]);
 
-        return redirect()->route('home');
+        return redirect()->route('dashboard')->with('success', 'Product sucessfully updated');
     }
 
     public function destroy(Product $product)
-    {
+    {   
+        if ($product->photo != NULL)
+            Storage::delete('public/products/' . $product->photo);
+
         $product->delete();
 
-        return redirect()->back();
+        return redirect()->back()->with('success', 'Product sucessfully removed');
     }
 
     public function validateRequest(Request $request)
@@ -106,6 +108,7 @@ class ProductController extends Controller
             'category_id' => 'required|integer',
             'description' => 'required|string',
             'price' => 'required|integer',
+            'photo' => 'image|mimes:jpeg,jpg,png'
         ]);
     }
 }

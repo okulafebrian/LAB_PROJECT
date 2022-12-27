@@ -47,3 +47,29 @@
     text-decoration: none;
 }
 
+.card-custom {
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 1px 6px 0 var(--color-shadow,rgba(49,53,59,0.12));
+}
+
+.slick-list {
+    margin: 0 -6px;
+}
+
+.slick-track {
+    margin-left:0;
+    display: flex !important;
+}
+
+.slick-slide {
+    margin: 0 4px;
+    height: inherit !important;
+}
+
+@include media-breakpoint-down(md) {
+    .card-custom {
+        box-shadow: none;
+    }
+}
+

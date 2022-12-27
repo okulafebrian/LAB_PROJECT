@@ -4,29 +4,27 @@ namespace App\Http\Controllers;
 
 use App\Models\Cart;
 use App\Models\Category;
+use App\Models\Product;
 use Illuminate\Http\Request;
 
 class CartController extends Controller
 {
     public function __construct()
     {
-        $this->middleware(['auth']);
-        $this->middleware(['customer']);
+        $this->middleware(['auth', 'customer']);
     }
 
     public function index()
-    {   
-        $carts = Cart::latest()->where('user_id', auth()->user()->id)->get();
-        $totalPrice = 0;
-        
-        foreach ($carts as $cart) {
-            $totalPrice += $cart->product->price * $cart->quantity;
-        }
+    {           
+        $carts = Cart::addSelect([
+            'total_price' => Product::whereColumn('id', 'carts.product_id')
+                ->selectRaw('sum(quantity * price) as total_price')
+        ])->get();
 
         return view('carts.index', [
             'carts' => $carts,
+            'totalPrice' => $carts->sum('total_price'),
             'cartCount' => $carts->sum('quantity'),
-            'totalPrice' => $totalPrice,
             'categories' => Category::orderBy('name')->get()
         ]);
     }
@@ -57,7 +55,7 @@ class CartController extends Controller
             ]);
         }
         
-        return redirect()->back();
+        return redirect()->back()->with('success', 'Successfully added!');;
     }
 
     public function show(Cart $cart)

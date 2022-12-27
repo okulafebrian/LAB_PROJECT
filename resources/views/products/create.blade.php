@@ -1,5 +1,5 @@
 <x-app title="Add Product">
-    <x-navbar-admin></x-navbar-admin>
+    <x-navbar-admin />
 
     <div class="container py-4">
         <div class="row justify-content-center">
