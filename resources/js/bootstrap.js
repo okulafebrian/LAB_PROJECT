@@ -10,8 +10,8 @@ try {
     window.Popper = require('popper.js').default;
     window.$ = window.jQuery = require('jquery');
     window.bootstrap = require('bootstrap/dist/js/bootstrap.bundle.js');
+    window.ClassicEditor = require('@ckeditor/ckeditor5-build-classic');
     
-    require('owl.carousel');
     require('slick-carousel');
 } catch (e) { }
 

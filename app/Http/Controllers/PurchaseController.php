@@ -34,7 +34,7 @@ class PurchaseController extends Controller
 
     public function store(Request $request)
     {   
-        if ($request->product_id) {
+        if ($request->product_id) {     // SINGLE ITEM PUCHASING
             $purchase = Purchase::create([
                 'user_id' => auth()->user()->id,
                 'total_price' => $request->quantity * $request->price
@@ -45,14 +45,12 @@ class PurchaseController extends Controller
                 'product_id' => $request->product_id,
                 'quantity' => $request->quantity,
             ]);
-        } else {
-            // INSERT INTO PURCHASES TABLE
+        } else {       // MULTIPLE ITEMS PURCHASING (CART)
             $purchase = Purchase::create([
                 'user_id' => auth()->user()->id,
                 'total_price' => $request->total_price
             ]);
 
-            // INSERT INTO PURCHASE DETAILS TABLE
             foreach (auth()->user()->carts as $cart) {
                 PurchaseDetail::create([
                     'purchase_id' => $purchase->id,

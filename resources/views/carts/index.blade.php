@@ -82,7 +82,7 @@
         @else
             <div class="card border-0 bg-light rounded-4">
                 <div class="card-body text-center">
-                    <img src="/storage/assets/empty.webp" width="20%">
+                    <img src="/storage/assets/empty.webp" width="200">
                     <h4 class="text-muted">Your shopping cart is empty</h4>
                     <p class="text-muted">Let's fill it with your dream items!</p>
                     <a href="{{ route('home') }}" class="btn btn-primary rounded-3 px-4 py-2 mb-4">Start Shopping</a>

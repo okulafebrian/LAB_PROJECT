@@ -39,7 +39,7 @@ class ProductController extends Controller
 
         Product::create([
             'name' => $request->name,
-            'category_id' => $request->category_id,
+            'category_id' => $request->category,
             'description' => $request->description,
             'price' => $request->price,
             'photo' => $proofNameToStore
@@ -82,11 +82,15 @@ class ProductController extends Controller
 
         $product->update([
             'name' => $request->name,
-            'category_id' => $request->category_id,
+            'category_id' => $request->category,
             'description' => $request->description,
             'price' => $request->price,
             'photo' => $proofNameToStore
         ]);
+
+        if (session('dashboard_url')) {
+            return redirect(session('dashboard_url'));
+        }
 
         return redirect()->route('dashboard')->with('success', 'Product sucessfully updated');
     }
@@ -105,7 +109,7 @@ class ProductController extends Controller
     {
         $request->validate([
             'name' => 'required|string',
-            'category_id' => 'required|integer',
+            'category' => 'required|integer',
             'description' => 'required|string',
             'price' => 'required|integer',
             'photo' => 'image|mimes:jpeg,jpg,png'

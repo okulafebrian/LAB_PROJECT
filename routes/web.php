@@ -17,7 +17,7 @@ Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('dashboard', [DashboardController::class, 'index'])->name('dashboard');
 Route::get('profile', [ProfileController::class, 'index'])->name('profile');
 Route::resource('carts', CartController::class);
-Route::resource('purchases', PurchaseController::class);
+Route::resource('purchases', PurchaseController::class,);
 Route::resource('products', ProductController::class);
 Route::resource('categories', CategoryController::class);
 

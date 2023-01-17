@@ -1,10 +1,10 @@
 <x-app title="Admin Dashboard">
-    <x-navbar-admin />
+    <x-navbar-admin></x-navbar-admin>
 
     <div class="container py-4">
         <div class="d-flex justify-content-between align-items-end mb-4">
             <h4 class="mb-0">Manage Product</h4>
-            <a href="{{ route('products.create') }}" class="btn btn-primary rounded-3 px-4">
+            <a href="{{ route('products.create') }}" class="btn btn-outline-primary rounded-3 px-4">
                 Add Product
             </a>
         </div>
@@ -15,9 +15,9 @@
                     <div class="row g-3">
                         <div class="col-md">
                             <div class="input-group">
-                                <input type="search" class="form-control" placeholder="Search" name="search"
+                                <input type="search" class="form-control" placeholder="Search product" name="search"
                                     value="{{ request('search') }}">
-                                <button class="btn btn-secondary" type="submit">
+                                <button class="btn btn-primary" type="submit">
                                     <i class="bi bi-search"></i>
                                 </button>
                             </div>
@@ -84,7 +84,8 @@
                                                 </li>
                                                 <li>
                                                     <button type="button" class="dropdown-item p-2 rounded-3"
-                                                        data-bs-toggle="modal" data-bs-target="#delete">
+                                                        data-bs-toggle="modal"
+                                                        data-bs-target="#delete{{ $product->id }}">
                                                         <i class="bi bi-trash3"></i> Delete
                                                     </button>
                                                 </li>
@@ -93,7 +94,7 @@
                                     </td>
                                 </tr>
 
-                                <div id="delete" class="modal fade" tabindex="-1">
+                                <div id="delete{{ $product->id }}" class="modal fade" tabindex="-1">
                                     <div class="modal-dialog modal-dialog-centered" style="max-width: 28rem">
                                         <div class="modal-content border-0 shadow py-3">
                                             <div class="modal-header border-0">
@@ -124,7 +125,7 @@
                 @elseif(request('search') || request('category'))
                     <div class="card border-0 bg-light rounded-4 mt-4">
                         <div class="card-body text-center">
-                            <img src="/storage/assets/empty.webp" width="20%">
+                            <img src="/storage/assets/empty.webp" width="200">
                             <div class="text-muted mb-4">
                                 <h4>Oops, Product Not Found</h4>
                                 <small>Try another keyword</small>
@@ -134,7 +135,7 @@
                 @else
                     <div class="card border-0 bg-light rounded-4">
                         <div class="card-body text-center">
-                            <img src="/storage/assets/empty.webp" width="20%">
+                            <img src="/storage/assets/empty.webp" width="200">
                             <h4 class="text-muted mb-4">No Available Product</h4>
                         </div>
                     </div>
@@ -146,4 +147,10 @@
             </div>
         </div>
     </div>
+
+    <script>
+        $('select[name="category"]').on('change', function() {
+            this.form.submit()
+        })
+    </script>
 </x-app>

@@ -6,6 +6,7 @@ use App\Models\Cart;
 use App\Models\Category;
 use App\Models\Product;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Session;
 
 class SearchController extends Controller
 {
@@ -20,6 +21,8 @@ class SearchController extends Controller
 
     public function admin()
     {   
+        Session::put('dashboard_url', request()->fullUrl());
+
         return view('dashboard', [
             'products' => Product::latest()->filter(request(['search', 'category']))->paginate(10)->withQueryString(),
             'categories' => Category::orderBy('name')->get()

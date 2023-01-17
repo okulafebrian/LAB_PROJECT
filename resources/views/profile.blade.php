@@ -1,13 +1,17 @@
 <x-app title="Profile">
-    <x-navbar :categories='$categories' :cartCount='$cartCount' />
+    @if (auth()->user()->role == 'ADMIN')
+        <x-navbar-admin></x-navbar-admin>
+    @else
+        <x-navbar :categories='$categories' :cartCount='$cartCount' />
+    @endif
 
-    <div class="container py-4">
+    <div class="container py-5">
         <div class="row justify-content-center">
             <div class="col-lg-5 col-md-8">
+                <h4 class="mb-4 text-center">Profile</h4>
+
                 <div class="card card-custom">
                     <div class="card-body p-md-4">
-                        <h4 class="mb-4 text-center">Profile</h4>
-
                         <div class="mb-3">
                             <label for="name" class="form-label">Name</label>
                             <input type="text" disabled class="form-control" id="name"

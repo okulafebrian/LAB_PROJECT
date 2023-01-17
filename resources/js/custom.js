@@ -1,4 +1,12 @@
 $(document).ready(function () {
+    ClassicEditor
+        .create(document.querySelector('#description'), {
+            toolbar: [ 'heading', '|', 'bold', 'italic', 'bulletedList', 'numberedList' ]
+        } )
+        .catch( error => {
+            console.error( error );
+        } );
+
     $('.slick-carousel').slick({
         centerMode: false,
         infinite: false,
@@ -29,12 +37,6 @@ $(document).ready(function () {
         }]
     });
     
-    $(".owl-carousel").owlCarousel({
-        items: 5,
-        margin: 10,
-        navText: ["<img src='/storage/assets/navPrev.png'>","<img src='/storage/assets/navNext.png'>"]
-    });
-    
     $('.input-spinner').inputSpinner({
         template:
             '<div class="input-group ${groupClass}">' +
@@ -46,10 +48,6 @@ $(document).ready(function () {
 
     $('#quantity').on('change', function () {
         $('input[name="quantity"]').val($(this).val())
-    })
-
-    $('select[name="category"]').on('change', function () {
-        this.form.submit()
     })
 
     const alert = new bootstrap.Modal('#alert')

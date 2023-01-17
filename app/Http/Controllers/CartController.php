@@ -55,7 +55,7 @@ class CartController extends Controller
             ]);
         }
         
-        return redirect()->back()->with('success', 'Successfully added!');;
+        return redirect()->back()->with('success', 'Successfully added to cart!');;
     }
 
     public function show(Cart $cart)
