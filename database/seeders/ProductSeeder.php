@@ -373,7 +373,6 @@ class ProductSeeder extends Seeder
                 'description' => '<p>Daphne Scrunchie Blouse memiliki bahan khas di bagian manset dan hem dengan garis leher. Dengan elastis membungkus bagian manset dan hem. Sangat sempurna dipadukan dengan High Loose Jeans.<br>Lengan panjang<br>99% katun, 1% Elastis<br>Slim fit</p>',
                 'price' => '337455',
                 'photo' => "Levi's Daphne Scrunchie Blouse Persimmon (A1906-0002) - S.jpg",
-                'created_at' => '2022-12-29 16:00:03'
             ],
             [
                 'name' => 'SWEPO Basic Sweater Hard Pill To Swallow (Sablon) M-XXL',
@@ -459,208 +458,208 @@ class ProductSeeder extends Seeder
                 'price' => '45900',
                 'photo' => 'Thesilversky Throwback 90s Edition Bucket Hat - Retro 90\'s.png'
             ],
-            [
-                'name' => 'Shoulder Bag Wanita Bracini Marleen Hitam',
-                'category_id' => '7',
-                'description' => '<p>- Shoulder bag bernuansa monokrom untuk urban versatile look<br>- Warna hitam<br>- Material kulit sintetis<br>- Kompartemen utama dengan resleting<br>- 1 kantong dalam<br>- Top carry handle<br>- Unadjustable strap<br><br>Ukuran produk<br>Panjang x Lebar x Tinggi:<br>- 30cm x 4cm x 18cm</p>',
-                'price' => '124750','photo' => 'Shoulder Bag Wanita Bracini Marleen Hitam.jpg'
-            ],
-            [
-                'name' => 'WINOD Lomi Platform - Black, 38',
-                'category_id' => '7',
-                'description' => '<p>Platform Winod Official membuat penampilan kamu super cantik dan fashionable. Platform ini semakin sempurna dengan material berkualitas dan model desain yang begitu trendi dan dinamis. Sepatu ini sangat nyaman menggunakan kulit sintetis premium, alas yang super empuk menggunakan double foam dan dilengkapi sol karet premium anti licin, sehingga kamu dapat tampil gaya sekaligus nyaman beraktivitas seharian dengan sepatu ini. Yukkk lengkapi koleksi Platform kamu. Happy Shopping.<br><br>Size Chart Winod Official<br><br>37 : 23 cm<br>38 : 23,5 cm<br>39 : 24 cm<br>40 : 25 cm<br>41 : 25,5 cm</p>',
-                'price' => '96700',
-                'photo' => 'WINOD Lomi Platform.jpg'
-            ],
-            [
-                'name' => 'WINOD Lalisa Flatshoes - Black, 37',
-                'category_id' => '7',
-                'description' => '<ul><li>Flatshoes winod dilapisi 3 layer premium foam anti bacterial. Yang membuat kaki anti lecet dan nyaman hingga pemakain 12 jam.</li><li>Anti bacterial tersebut yang menghambat perkembangan bakteri di kaki.</li><li>Alas super empuk, tidak akan kempes Karena menggunakan Double foam premium.</li></ul><p>Lalisa flatshoes adalah salah satu koleksi basic di flatshoes winod. bikin tambah cantik, unik, dan stylish.<br><br>Produk terbaru dengan Inovasi Unik Canvas mis Leather and Chain<br><br>Bahan :sintetis leathe premiumr and Chain Anti Karat<br>Sol : Non Slip</p>',
-                'price' => '83700',
-                'photo' => 'WINOD Lalisa Flatshoes - Black, 37.jpg'
-            ],
-            [
-                'name' => 'Plain Pants in Cream Brilliant Girl Celana Kasual Panjang Wanita - L',
-                'category_id' => '7',
-                'description' => '<p>Detail produk:</p><p>- Celana kasual untuk daily home look bergaya timeless<br>- Warna cream<br>- Mid rise<br>- Regular fit<br>- Karet pinggang elastis<br>- Material poliester tidak transparan dan ringan</p><p>Petunjuk perawatan:<br>Gunakan mode pencucian lembut<br><br>Detail ukuran:<br>Lingkar pinggang x Panjang celana<br>- S (72cm x 96cm)<br>- M (74cm x 97cm)<br>- L (76cm x 98cm)<br>- XL (78cm x 100cm)<br>- XXL (80cm x 101cm)</p>',
-                'price' => '284500',
-                'photo' => 'Plain Pants in Cream Brilliant Girl Celana Kasual Panjang Wanita - L.jpg'
-            ],
-            [
-                'name' => 'Esrocte Kaos Reguler Unisex Lengan Pendek Pediad',
-                'category_id' => '7',
-                'description' => '<p>Esrocte berusaha mendorong setiap individu untuk lebih percaya diri dengan apa yang kami lakukan</p><p>----------SPESIFIKASI----------<br>Bahan : 100% Cotton<br>Ketebalan Kaos : 24s<br>Model : Regular T-Shirt<br>Jahitan : Tingkat kerapatan tinggi &amp; presisi<br><br>----------PERAWATAN----------<br>Cuci terpisah<br>Gunakan detergen yang lembut<br>Jangan diputar dalam mesin cuci saat pengeringan<br>Jangan gunakan pemutih<br>Setrika suhu rendah</p>',
-                'price' => '61398',
-                'photo' => 'Esrocte Kaos Reguler Unisex Lengan Pendek Pediad.jpg'
-            ],
-            [
-                'name' => 'Wangsit Hots Sbmptn Soshum 2023',
-                'category_id' => '1',
-                'description' => '<p>Penerimaan Mahasiswa baru perguruan tinggi dilaksanakan melalui tiga jalur, yaitu SNMPTN, SBMPTN, dan Seleksi Mandiri. Lembaga pemerintah yang menyelenggarakan seleksi masuk perguruan tinggi adalah LTMPT (Lembaga Tes Masuk Perguruan Tinggi). Selain itu, pemerintah mengeluarkan kebijakan SSO (Single Sign On) yang artinya seluruh peserta harus membuat akun LTMPT dengan melakukan registrasi.</p><p>Buku WANGSIT (Pawang Soal Sulit) HOTS SBMPTN Soshum 2023 ini hadir untuk membekali siswa dalam persiapan ujian masuk perguruan tinggi negeri. Materi dalam buku ini bahas secara mendalam ditambah dengan drilling soal per topik bahasan dan pembahasan yang mudah dipahami. Selain itu, buku ini juga dilengkapi dengan soal prediksi dan try out SBMPTN yang akurat sehingga dapat memberikan gambaran kepada siswa tentang soal yang akan diujikan. Menjadi mahasiswa di PTN ternama memang bukan hal yang mudah dan bukan hal yang perlu dikhawatirkan, yang terpenting adalah usaha dan doa untuk menggapai impian tersebut.<br><br>Selamat belajar dan semoga sukses!</p>',
-                'price' => '180000',
-                'photo' => 'Wangsit Hots Sbmptn Soshum 2023.jpg'
-            ],
-            [
-                'name' => 'Wangsit Hots Sbmptn Saintek 2023',
-                'category_id' => '1',
-                'description' => '<p>Penerimaan Mahasiswa baru perguruan tinggi dilaksanakan melalui tiga jalur, yaitu SNMPTN, SBMPTN, dan Seleksi Mandiri. Lembaga pemerintah yang menyelenggarakan seleksi masuk perguruan tinggi adalah LTMPT (Lembaga Tes Masuk Perguruan Tinggi). Selain itu, pemerintah mengeluarkan kebijakan SSO (Single Sign On) yang artinya seluruh peserta harus membuat akun LTMPT dengan melakukan registrasi.</p><p><br>Buku WANGSIT (Pawang Soal Sulit) HOTS SBMPTN Saintek 2023 ini hadir untuk membekali siswa dalam persiapan ujian masuk perguruan tinggi negeri. Materi dalam buku ini bahas secara mendalam ditambah dengan drilling soal per topik bahasan dan pembahasan yang mudah dipahami. Selain itu, buku ini juga dilengkapi dengan soal prediksi dan try out SBMPTN yang akurat sehingga dapat memberikan gambaran kepada siswa tentang soal yang akan diujikan. Menjadi mahasiswa di PTN ternama memang bukan hal yang mudah dan bukan hal yang perlu dikhawatirkan, yang terpenting adalah usaha dan doa untuk menggapai impian tersebut.</p>',
-                'price' => '180000',
-                'photo' => 'Wangsit Hots Sbmptn Saintek 2023.jpg'
-            ],
-            [
-                'name' => 'Jujutsu Kaisen 07',
-                'category_id' => '1',
-                'description' => '<p>Jari Sukuna dan objek terkutuk tingkat tinggi Jutai Kusozu yang disimpan di akademi jujutsu berhasil dicuri oleh Mahito. Kusozu pun menjelma jadi ancaman baru. Tanpa mengetahui bahaya tersebut, Itadori dan yang lainnya pergi untuk memusnahkan jurei yang muncul di pintu gerbang. Akan tetapi...!?</p><p><br>&nbsp;</p>',
-                'price' => '20000',
-                'photo' => 'Jujutsu Kaisen 07.jpg'
-            ],
-            [
-                'name' => 'Demon Slayer - Kimetsu No Yaiba 09',
-                'category_id' => '1',
-                'description' => '<p>bersama "Otobashira" Tengen Uzui. Di sanalah ketiga istri Tengen yang juga "kunoichi", hilang kontak setelah menyusup untuk mengumpulkan informasi. Demi penyelidikan lebih lanjut, Tanjiro dan kawan-kawan harus menyusup dengan menyamar sebagai wanita...!! Tetapi lokasi iblisnya tetap belum ditemukan. Di tengah situasi membingungkan itu, tangan-tangan mematikan iblis menculik para "oiran"!! Mampukah Tanjiro dan kawan-kawan menemukan iblis tersebut!?</p>',
-                'price' => '20000',
-                'photo' => 'Demon Slayer - Kimetsu No Yaiba 09.jpg'
-            ],
-            [
-                'name' => 'Home Sweet Loan Almira Bastari - Batch 2',
-                'category_id' => '1',
-                'description' => '<p>Empat orang yang berteman sejak SMA bekerja di perusahaan yang sama meski beda nasib. Di usia 31 tahun, mereka berburu rumah idaman yang minimal nyerempet Jakarta.<br>Kaluna, pegawai Bagian Umum, yang gajinya tak pernah menyentuh dua digit. Gadis ini kerja sampingan sebagai model bibir, bermimpi membeli rumah demi keluar dari situasi tiga kepala keluarga yang bertumpuk di bawah satu atap. Di tengah perjuangannya menabung, Kaluna dirongrong oleh kekasihnya untuk pesta pernikahan mewah.<br>Tanisha, ibu satu anak yang menjalani Long Distance Marriage, mencari rumah murah dekat MRT yang juga bisa menampung mertuanya.<br>Kamamiya, yang berambisi menjadi selebgram, mencari apartemen cantik untuk diunggah ke media sosial demi memenuhi gengsinya agar bisa menikah dengan pria kaya.<br>Danan, anak tunggal tanpa beban yang akhirnya berpikir untuk berhenti hura-hura, dan membeli aset agar bisa pensiun dengan tenang.<br>Apakah keempat sahabat ini berhasil menemukan rumah yang mampu mereka cicil? Dan apakah Kaluna bisa membentuk keluarga yang ia impikan?</p>',
-                'price' => '71250',
-                'photo' => 'Home Sweet Loan Almira Bastari - Batch 2.jpg'
-            ],
-            [
-                'name' => 'Buku Top Rank Tes Skolastik SNBT 2023',
-                'category_id' => '1',
-                'description' => '<p>Top Rank Tes Skolastik Snbt 2023 Sesuai dengan PERMENDIKBUDRISTEK Nomor 48 Tahun 2022 TES SKOLASTIK: • Potensi Kognitif • Penalaran Matematika • Literasi dalam Bahasa Indonesia • Literasi dalam Bahasa Inggris Kisi-kisi Tes Skolastik SNBT 2023 sesuai dengan PERMENDIKBUDRISTEK Nomor 48 Tahun 2022 1. Potensi Kognitif Potensi Kognitif digunakan untuk menguji kemampuan berlogika dan menganalisis suatu masalah, terdiri atas: • Penalaran Logis • Penalaran Analitis • Penalaran Kognitif 2. Penalaran Matematika Terdiri atas: • Barisan Bilangan • Perbandingan, Aritmetika Sosial, dan Aljabar • Statistika dan Peluang • Fungsi, Persamaan Linier, dan Himpunan • Matematika Dasar 3. Literasi dalam Bahasa Indonesia 4. Literasi dalam Bahasa Inggris Buku TOP RANK TES SKOLASTIK 2023 memuat semua yang kamu butuhkan untuk menghadapi SNBT 2023, yaitu: 1. Pendalaman Materi Tes Skolastik, dilengkapi dengan Contoh Soal &amp; Pembahasan 2. Bank Soal Tes Skolastik Terlengkap plus Pembahasan 3. 3 Paket Tryout Tes Skolastik + Pembahasan 4. 3 Paket Ebook Tryout Tes Skolastik + Pembahasan 5. Ribuan Bank Soal Tes Skolastik + Pembahasan 6. Berbagai Bonus Aplikasi &amp; Tryout Online Pintar</p>',
-                'price' => '100000',
-                'photo' => 'Buku Top Rank Tes Skolastik SNBT 2023.jpg'
-            ],
-            [
-                'name' => 'Akulah Ahlinya AI - Artificial Intelligence',
-                'category_id' => '1',
-                'description' => '<p>Apa kalian pernah mendengar tentang AI atau kecerdasan buatan? Saat ini, negara-negara di seluruh dunia sedang berlomba menciptakan perangkat berteknologi canggih dengan menerapkan kecerdasan buatan di dalamnya. Perangkat-perangkat ini sangat dekat dengan kehidupan kita sehari-hari, seperti mesin cuci, pendingin ruangan, televisi, bahkan mobil yang mengendarai secara otomatis. Layaknya manusia yang dapat berpikir, kecerdasan buatan diharapkan dapat meningkatkan kualitas hidup manusia agar menjadi lebih nyaman. Di sisi lain, kecerdasan buatan akan menggantikan manusia di berbagai jenis pekerjaan dan memunculkan jenis-jenis pekerjaan baru terkaitnya. Ayo, kenali lebih dalam tentang kecerdasan buatan dan temukan pekerjaan apa saja yang akan muncul di masa depan!</p><p>Job Series mengandung filsafat pendidikan akan berusaha mewujudkan mimpi dan harapan secara terus menerus sehingga mimpi bisa menjadi nyata. Dengan komik pendidikan karier untuk anak dan remaja ini, setiap bagiannya membantu mengerti tentang pekerjaan, kemudian dengan mandiri mendorong untuk menetapkan harapannya.</p>',
-                'price' => '100000',
-                'photo' => 'Akulah Ahlinya AI - Artificial Intelligence.jpg'
-            ],
-            [
-                'name' => 'Mainan Push Bubble Fidget Pop It Fidget Toy Pop It Rainbow',
-                'category_id' => '17',
-                'description' => '<p>Stress relieve<br><br>Umur yang cocok: 4-13tahun<br>Bahan: Silicone food grade<br>Ukuran: 12.6 x 12.6x1.5cm<br><br>Bubble push pop ini dapat<br>- melatih keatifitas<br>- melatih kesabaran<br>- melatih motorik tangan<br><br>Oktagon Rainbow<br>Square Rainbow<br>Love Rainbow<br>Bulat Rainbow<br>Rainbow Rainbow</p>',
-                'price' => '7888',
-                'photo' => 'Mainan Push Bubble Fidget Pop It Fidget Toy Pop It Rainbow.jpg'
-            ],
-            [
-                'name' => 'UNO Card - Permainan',
-                'category_id' => '17',
-                'description' => '<p>Hiburan yang inovatif<br>Dirancang dengan ahli<br>Komponen berkualitas<br>Baru dalam kemasan pabrik<br><br>UNO adalah permainan kartu klasik yang mudah diambil dan tidak mungkin untuk diletakkan! Pemain bergiliran mencocokkan kartu di tangan mereka dengan kartu saat ini yang ditunjukkan di atas geladak baik dengan warna atau nomor. Kartu aksi khusus memberikan momen yang mengubah permainan saat mereka membantu Anda mengalahkan lawan Anda. Ini termasuk Skips, Reverses, Draw Twos, Wild dan Draw Four Wild. Anda akan menemukan 25 masing-masing warna (merah, hijau, biru, dan kuning), delapan kartu liar, tiga kartu yang dapat dikustomisasi, dan satu kartu Aturan Khusus di dalam dek 112 kartu. Jika Anda tidak dapat membuat pertandingan, Anda harus menarik dari tumpukan pusat! Dan ketika Anda memiliki satu kartu, jangan lupa berteriak "UNO!" Pemain pertama yang melepaskan diri dari semua kartu di tangan mereka sebelum lawan mereka menang. Sangat Menyenangkan untuk Semua Orang!</p>',
-                'price' => '62320',
-                'photo' => 'UNO Card - Permainan.jpg'
-            ],
-            [
-                'name' => 'Jurassic World Snap Squad Attitudes Triceratops - Mainan Action Figure',
-                'category_id' => '17',
-                'description' => '<ul><li>Koleksi skala kecil menampilkan tampilan sengit dinosaurus Jurassic World tetapi dengan desain gaya yang lucu berdasarkan adegan utama dari seri!</li><li>Mulut pada setiap gambar terbuka untuk "menjepret" jari, pakaian, dan aksesori lainnya sementara kaki menjuntai di bawah!</li><li>Klip dan mainkan dengan koleksi Jurassic World Snap Squad Attitudes atau taruh di ransel, paket makan siang, dan lainnya untuk dimainkan saat bepergian.</li><li>Ini adalah hadiah yang sempurna untuk usia 4 tahun ke atas, terutama penggemar Jurassic World dan mereka yang menyukai permainan aksi dan mengoleksi dinosaurus!</li></ul>',
-                'price' => '53175',
-                'photo' => 'Jurassic World Snap Squad Attitudes Triceratops - Mainan Action Figure.jpg'
-            ],
-            [
-                'name' => 'Mainan Anak Tebak Gambar Board Game Who is it',
-                'category_id' => '17',
-                'description' => '<p>Who Is It? adalah game yang sedang naik daun saat ini.</p><p><br>Cara bermain game sangat simple, masing-masing pemain mengambil kartu secara acak setelah itu pemain secara bergantian menanyakan ciri-ciri dari orang yang akan ditebak dan mulai menyempitkan tebakan.</p><p><br>Pemain yang pertama kali dapat menebak orang dengan benar yang akan menang.<br>Who is it game ini dimainkan oleh 2 orang sehingga cocok untuk Anda yang ingin menantang rival Anda untuk bertanding game. Sangat seru dimainkan pada acara-acara pesta atau acara keluarga.</p><p><br>Cara bermain game sangat simple, masing-masing pemain mengambil kartu secara acak setelah itu pemain secara bergantian menanyakan ciri-ciri dari orang yang akan ditebak dan mulai menyempitkan tebakan. Pemain yang pertama kali dapat menebak orang dengan benar yang akan menang.</p>',
-                'price' => '24990',
-                'photo' => 'Mainan Anak Tebak Gambar Board Game Who is it - Mainan Tebakan Gambar.jpg'
-            ],
-            [
-                'name' => 'Kleaner Tornado Mop',
-                'category_id' => '25',
-                'description' => '<p>Kleaner Spin Mop hadir dengan design praktis sehingga mengepel jadi lebih cepat, efisien, dan mudah. Tangan tidak lagi kotor dan bebas dari bakteri karena tidak perlu bilas / peras manual.<br>&nbsp;</p><p>Fitur:</p><p>-Kain pel dari bahan Microfiber<br>-Pengering dan tongkat pel berbahan stainless steel<br>-Dilengkapi roda besar kokoh dan tarikan agar mudah dibawa<br>-Dilengkapi dengan botol sabun pembersih<br>-Tangan tidak kotor, bilas dan peras tanpa tangan basah<br>-Tersedia lubang pembuangan air kotor<br>-Tongkat pel dilengkapi klip kunci yang mudah dipakai untuk atur ketinggian<br>-Harga refill yang terjangkau</p>',
-                'price' => '249000',
-                'photo' => 'Kleaner Tornado Mop.jpg'
-            ],
-            [
-                'name' => 'Guling Tidur Andalus Medium 100% Silicon Grade A',
-                'category_id' => '25',
-                'description' => '<p>Andalus Medium<br><br>Detail Produk:<br>- Cover : 100% Kain Cotton<br>- Isian : 100% Silicon HCS Grade A<br>- Ukuran : Bantal (48x65cm) &amp; Guling (30x86cm)<br>- Berat : B= 650g &amp; G= 700g<br><br>Fitur Produk:<br>- Anti Bakteri<br>- Tidak Berdebu<br>- Tidak Berbau<br>- Mudah dicuci<br><br>Kualitas Produk:<br>- Memiliki tingkat kepadatan yang tinggi<br>- Tingkat kekenyalan : Soft to Medium<br>- Memiliki karakter lembut dan lentur<br><br>Andalus Pillow merupakan bantal dan guling tidur berbagai jenis dengan kualitas premium. Produk ini diproduksi mandiri dan melewati proses quality control sehingga memiliki kualitas yang terjamin. Sangat nyaman digunakan dan dibuat sesuai standar kesehatan.</p>',
-                'price' => '35000',
-                'photo' => 'Guling Tidur Andalus Medium 100% Silicon Grade A.jpg'
-            ],
-            [
-                'name' => 'Dunlopillo Memory Foam Countour Ergo Original 60x40 cm',
-                'category_id' => '25',
-                'description' => '<p>Ukuran : 60x40x12 cm<br>Bahan : Knitting<br>Cover : White ( Campur Motif )<br>Berat Bantal : +/- 1,2 Kg<br><br>Material memory foam seperti squishy menyesuaikan bentuk kepala dan leher masing-masing pemakai.<br><br>Apa kelebihan bantal Memory Foam dengan bantal lainnya ?<br>✔ Bantal Memory Foam anti bakteri, anti fungal/jamur, anti alergi, karena pori-pori nya<br>sangat kecil sehingga tidak menyimpan debu dan bakteri sehingga aman bahkan untuk orang<br>yang alergi debu sekalipun.<br>✔ Bantal Memory Foam baik untuk yang mempunyai masalah tulang punggung/leher.<br><br>Manfaat Bantal contour Memory Foam :<br>✔ Mengurangi masalah susah tidur dan diklaim mampu mengurangi dengkuran<br>✔ Mencegah masalah tulang leher akibat salah tidur<br>✔ Mengurangi sakit pada syaraf terjepit saat tidur</p>',
-                'price' => '109000',
-                'photo' => 'Dunlopillo Memory Foam Countour Ergo Original 60x40 cm.png'
-            ],
-            [
-                'name' => 'Paket 2 Bantal Tidur Combo Pillow Sleepmax',
-                'category_id' => '25',
-                'description' => '<p>Sleep Max Combo Pillow adalah kualitas produk terbaik kami yang sudah kami rancang untuk dapat mendukung kualitas tidur anda sehari-hari menjadi lebih baik. Dan juga dibuat dengan material unggulan yang sudah kami pilihkan untuk kenyamanan diri anda pada saat beristirahat di rumah bersama keluarga tercinta.<br><br>Deskripsi Produk :<br>- Cover : Microtex yang halus dan nyaman serta membuat isi dakron dari Bantal tersebut tidak<br>akan keluar dari permukaan bahan<br>- Isi : 100% Premium Dakron terbaik tanpa campuran yang aman digunakan untuk kalangan<br>anak-anak hingga orang dewasa<br>- Ukuran : 45x65 Cm<br>- Berat : 650 gram<br>- Berat Total : 1.300 gram</p>',
-                'price' => '58000',
-                'photo' => 'Paket 2 Bantal Tidur Combo Pillow Sleepmax.jpg'
-            ],
-            [
-                'name' => 'Rak Kamar Mandi Dinding Rak Bumbu Dapur Stainless Steel Rak Tempel',
-                'category_id' => '25',
-                'description' => '<p>Rak Gantung Kamar Mandi Berbahan Stainless, Lengkap dengan lem perekat jadi dapat dipasang tanpa bor.<br>&nbsp;</p><p>Dimensi Produk :<br>1 tingkat. P x L x T : 40cm x 15cm x 16cm<br>2 tingkat. P x L x T : 40cm x 15cm x 36cm<br>3 tingkat.P x L x T : 40cm x 15cm x 56cm<br>&nbsp;</p><p>Fitur Produk :</p><ul><li>Desain terampil, penampilan elegan, struktur stabil dan tahan benturan</li><li>Desain terpisah, posisi ketinggian dapat diatur, bisa dipasang sesuai keinginan.</li><li>Desain kait bergerak memungkinkan kait bergerak ke kiri dan kanan untuk memudahkan penyimpanan.</li><li>Penahan pagar pembatas untuk mencegah benda jatuh.</li><li>Sudut dipoles dan halus mencegah goresan tangan.</li><li>Bor / bebas bor 2 metode pemasangan.</li><li>Produk sudah termasuk lem.</li></ul>',
-                'price' => '39000',
-                'photo' => 'Rak Kamar Mandi Dinding Rak Bumbu Dapur Stainless Steel Rak Tempel.jpg'
-            ],
-            [
-                'name' => 'UNISOH TOILET TRAINING ANAK',
-                'category_id' => '25',
-                'description' => '<p>* Toilet training anak / pispot anak<br>* Desain karakter lucu dan tidak pasaran<br>* Model oval<br>* Kapasitas isi 1,5 liter<br>* Ada 2 varian warna, BLUE &amp; PURPLE<br>* Bahan utama PP<br>* Detail ukuran ada di gambar<br>* Model unik dan tidak umum di pasaran</p>',
-                'price' => '96750',
-                'photo' => 'UNISOH TOILET TRAINING ANAK.jpg'
-            ],
-            [
-                'name' => 'HANDUK MICROFIBER NATUREHIKE NH20FS009 TRAVEL PORTABLE QUICK DRY',
-                'category_id' => '25',
-                'description' => '<p>Origin: CN(Origin)<br>Feature: Quick-Dry<br>Pattern: Plain Dyed<br>Material: Microfiber Fabric<br>Size: S: 100*30 cm L: 160*80cm<br>Weight: S: about 66.7g L: about 284.5g</p>',
-                'price' => '81880',
-                'photo' => 'HANDUK MICROFIBER NATUREHIKE NH20FS009 TRAVEL PORTABLE QUICK DRY.jpg'
-            ],
-            [
-                'name' => 'IKEA IRJA Set Rel Batang Gorden Putih 140cm',
-                'category_id' => '25',
-                'description' => '<p>Biaya perakitan atau assembly : Rp.199.000<br><br>Anda mendapat set batang gorden lengkap dengan finial dengan desain hasil akhir yang ringan dan bergaya. Apabila batangnya terlalu panjang, dapat dipotong sesuai panjang yang diinginkan.<br><br>Bahan :<br>Batang/ Braket dinding: Baja, Dilapis serbuk berpigmen<br>Finial: Plastik polipropilena<br><br>Petunjuk perawatan<br>Vacuum clean.<br>Lap bersih dengan kain kering.</p>',
-                'price' => '24900',
-                'photo' => 'IKEA IRJA Set Rel Batang Gorden Putih 140cm.jpg'
-            ],
-            [
-                'name' => 'Bean Bag Triangle Plus ISI Size Dewasa Motif Kotak Hitam',
-                'category_id' => '25',
-                'description' => '<p>Bean Bag Triangle Size Large Beanbag.Smoothies Motif Kotak Hitam PLUS ISI<br>- Mendapatkan 2 cover.<br>- Cover dalam kain satin.<br>- Cover luar kain katun halus.<br>- Zipper berkualitas.<br>- Jahitan sangat rapih.<br>- Isian bean bag 70% styrofoam dan 30% memoryfoam.<br>- Harga Ongkir sesuai aplikasi.<br>- Motif tidak mudah luntur.<br><br>Bahan kain:<br>Menggunakan kain katun pilihan, sehinga beanbag akan terasa halus<br>dan adem pastinya. Kain katun yang digunakan juga awet dan tidak<br>mudah robek.<br><br>Ukuran :<br>- Panjang : 120cm<br>- Lebar : 75cm<br>- Tinggi : 75cm</p>',
-                'price' => '153000',
-                'photo' => 'Bean Bag Triangle Plus ISI Size Dewasa Motif Kotak Hitam.jpg'
-            ],
-            [
-                'name' => 'Kraft Keju Cheddar 165g 2 pack - Free Cheddar Midi',
-                'category_id' => '18',
-                'description' => '<p>Kraft Keju Cheddar 165g 2 pack - Free Cheddar Midi<br><br>Isi paket :<br>2x Kraft Keju Cheddar 165g<br><br>*Free Midi Cheddar Keju 70g<br><br>Kraft Keju Cheddar, Dibuat menggunakan susu asli yang diambil dari sapi New Zealand pilihan yang hanya menghasilkan susu dengan kualitas tinggi dan terbaik. Susu sapi New Zealand ini kemudian diolah menjadi keju cheddar melalui pemrosesan menggunakan mesin berteknologi tinggi untuk memastikan kualitas. Keju cheddar dari Kraft memiliki kandungan Calcimilk, sehingga kaya akan Kalsium, sumber protein dan vitamin D.</p>',
-                'price' => '52000',
-                'photo' => 'Kraft Keju Cheddar 165g 2 pack - Free Cheddar Midi.jpg'
-            ],
-            [
-                'name' => 'Oreo Biskuit Sandwich Package Gratis Topi',
-                'category_id' => '18',
-                'description' => '<p>Oreo Biskuit Sandwich Package Gratis Topi - Camilan / Snack<br><br>Isi paket :<br>1x Oreo Biskuit Birthday Sprinkles<br>2x Oreo Vanilla 133g<br>1x Oreo Biskuit Krim Cokelat 133g<br>1x Oreo Strawberry 133g<br>1x Oreo Double Stuf 135.3g<br><br>* Free Topi Oreo<br><br>Oreo biskuit dengan krim yang tebal dan lezat memberikan kenikmatan dalam setiap gigitannya. Hadir dengan rasa yang nikmat, cocok untuk dibawa saat bepergian. Oreo juga sangat ideal dinikmati di segala suasana bersama keluarga maupun teman!</p>',
-                'price' => '45000',
-                'photo' => 'Oreo Biskuit Sandwich Package Gratis Topi.jpg'
-            ],
-            [
-                'name' => 'Cadbury Dairy Milk Chocolate Play Bundle - Snack Chocolate',
-                'category_id' => '18',
-                'description' => '<p>Cadbury Chocolate Play Bundle - Snack Chocolate<br><br>Isi paket :<br>1x Cadbury Dairy Milk Pop Heart 150G<br>1x Cadbury Coklat Dairy Milk 30gr<br>1x Mondelez Cadbury Lickables 20gr<br><br>Cadbury Dairy Milk Pop Heart merupakan coklat kombinasi susu yang lezat digabungkan menjadikan coklat batangan bercita rasa sempurna dan nikmat, cocok untuk temani momen spesial kamu agar lebih bermakna!<br><br>Cadbury dairy milk merupakan coklat kombinasi susu yang lezat digabungkan menjadikan coklat batangan bercita rasa sempurna dan nikmat!<br><br>Cadbury Lickables terbuat dari campuran coklat dan susu dalam bentuk cair dengan tambahan potongan biskuit Oreo didalamnya. Memiliki rasa manis dan lembut yang khas dari resep rahasia campuran antara coklat dan susu berkualitas baik!</p>',
-                'price' => '45000',
-                'photo' => 'Cadbury Dairy Milk Chocolate Play Bundle - Snack Chocolate.jpg'
-            ],
-            [
-                'name' => 'Ritz Cracker Biskuit Krakers 300 gr Twinpack',
-                'category_id' => '18',
-                'description' => '<p>Ritz Cracker Biskuit Krakers 300 gr Twinpack<br><br>Isi paket :<br>2x Mondelez Ritz Cracker Biskuit Krakers 300 gr<br>Expired Date: September 2023<br><br>Ritz Cracker dengan rasa asin yang ringan di satu sisi. Rasa asin dari biskuit dengan rasa keju menjadi kombinasi yang lezat.<br><br>Ritz Cracker :<br>- Tekstur yang renyah<br>- Diperkaya dengan kalsium dan zat besi<br>- Enak untuk camilan bergizi</p>',
-                'price' => '29300',
-                'photo' => 'Ritz Cracker Biskuit Krakers 300 gr Twinpack.jpg'
-            ]
+            // [
+            //     'name' => 'Shoulder Bag Wanita Bracini Marleen Hitam',
+            //     'category_id' => '7',
+            //     'description' => '<p>- Shoulder bag bernuansa monokrom untuk urban versatile look<br>- Warna hitam<br>- Material kulit sintetis<br>- Kompartemen utama dengan resleting<br>- 1 kantong dalam<br>- Top carry handle<br>- Unadjustable strap<br><br>Ukuran produk<br>Panjang x Lebar x Tinggi:<br>- 30cm x 4cm x 18cm</p>',
+            //     'price' => '124750','photo' => 'Shoulder Bag Wanita Bracini Marleen Hitam.jpg'
+            // ],
+            // [
+            //     'name' => 'WINOD Lomi Platform - Black, 38',
+            //     'category_id' => '7',
+            //     'description' => '<p>Platform Winod Official membuat penampilan kamu super cantik dan fashionable. Platform ini semakin sempurna dengan material berkualitas dan model desain yang begitu trendi dan dinamis. Sepatu ini sangat nyaman menggunakan kulit sintetis premium, alas yang super empuk menggunakan double foam dan dilengkapi sol karet premium anti licin, sehingga kamu dapat tampil gaya sekaligus nyaman beraktivitas seharian dengan sepatu ini. Yukkk lengkapi koleksi Platform kamu. Happy Shopping.<br><br>Size Chart Winod Official<br><br>37 : 23 cm<br>38 : 23,5 cm<br>39 : 24 cm<br>40 : 25 cm<br>41 : 25,5 cm</p>',
+            //     'price' => '96700',
+            //     'photo' => 'WINOD Lomi Platform.jpg'
+            // ],
+            // [
+            //     'name' => 'WINOD Lalisa Flatshoes - Black, 37',
+            //     'category_id' => '7',
+            //     'description' => '<ul><li>Flatshoes winod dilapisi 3 layer premium foam anti bacterial. Yang membuat kaki anti lecet dan nyaman hingga pemakain 12 jam.</li><li>Anti bacterial tersebut yang menghambat perkembangan bakteri di kaki.</li><li>Alas super empuk, tidak akan kempes Karena menggunakan Double foam premium.</li></ul><p>Lalisa flatshoes adalah salah satu koleksi basic di flatshoes winod. bikin tambah cantik, unik, dan stylish.<br><br>Produk terbaru dengan Inovasi Unik Canvas mis Leather and Chain<br><br>Bahan :sintetis leathe premiumr and Chain Anti Karat<br>Sol : Non Slip</p>',
+            //     'price' => '83700',
+            //     'photo' => 'WINOD Lalisa Flatshoes - Black, 37.jpg'
+            // ],
+            // [
+            //     'name' => 'Plain Pants in Cream Brilliant Girl Celana Kasual Panjang Wanita - L',
+            //     'category_id' => '7',
+            //     'description' => '<p>Detail produk:</p><p>- Celana kasual untuk daily home look bergaya timeless<br>- Warna cream<br>- Mid rise<br>- Regular fit<br>- Karet pinggang elastis<br>- Material poliester tidak transparan dan ringan</p><p>Petunjuk perawatan:<br>Gunakan mode pencucian lembut<br><br>Detail ukuran:<br>Lingkar pinggang x Panjang celana<br>- S (72cm x 96cm)<br>- M (74cm x 97cm)<br>- L (76cm x 98cm)<br>- XL (78cm x 100cm)<br>- XXL (80cm x 101cm)</p>',
+            //     'price' => '284500',
+            //     'photo' => 'Plain Pants in Cream Brilliant Girl Celana Kasual Panjang Wanita - L.jpg'
+            // ],
+            // [
+            //     'name' => 'Esrocte Kaos Reguler Unisex Lengan Pendek Pediad',
+            //     'category_id' => '7',
+            //     'description' => '<p>Esrocte berusaha mendorong setiap individu untuk lebih percaya diri dengan apa yang kami lakukan</p><p>----------SPESIFIKASI----------<br>Bahan : 100% Cotton<br>Ketebalan Kaos : 24s<br>Model : Regular T-Shirt<br>Jahitan : Tingkat kerapatan tinggi &amp; presisi<br><br>----------PERAWATAN----------<br>Cuci terpisah<br>Gunakan detergen yang lembut<br>Jangan diputar dalam mesin cuci saat pengeringan<br>Jangan gunakan pemutih<br>Setrika suhu rendah</p>',
+            //     'price' => '61398',
+            //     'photo' => 'Esrocte Kaos Reguler Unisex Lengan Pendek Pediad.jpg'
+            // ],
+            // [
+            //     'name' => 'Wangsit Hots Sbmptn Soshum 2023',
+            //     'category_id' => '1',
+            //     'description' => '<p>Penerimaan Mahasiswa baru perguruan tinggi dilaksanakan melalui tiga jalur, yaitu SNMPTN, SBMPTN, dan Seleksi Mandiri. Lembaga pemerintah yang menyelenggarakan seleksi masuk perguruan tinggi adalah LTMPT (Lembaga Tes Masuk Perguruan Tinggi). Selain itu, pemerintah mengeluarkan kebijakan SSO (Single Sign On) yang artinya seluruh peserta harus membuat akun LTMPT dengan melakukan registrasi.</p><p>Buku WANGSIT (Pawang Soal Sulit) HOTS SBMPTN Soshum 2023 ini hadir untuk membekali siswa dalam persiapan ujian masuk perguruan tinggi negeri. Materi dalam buku ini bahas secara mendalam ditambah dengan drilling soal per topik bahasan dan pembahasan yang mudah dipahami. Selain itu, buku ini juga dilengkapi dengan soal prediksi dan try out SBMPTN yang akurat sehingga dapat memberikan gambaran kepada siswa tentang soal yang akan diujikan. Menjadi mahasiswa di PTN ternama memang bukan hal yang mudah dan bukan hal yang perlu dikhawatirkan, yang terpenting adalah usaha dan doa untuk menggapai impian tersebut.<br><br>Selamat belajar dan semoga sukses!</p>',
+            //     'price' => '180000',
+            //     'photo' => 'Wangsit Hots Sbmptn Soshum 2023.jpg'
+            // ],
+            // [
+            //     'name' => 'Wangsit Hots Sbmptn Saintek 2023',
+            //     'category_id' => '1',
+            //     'description' => '<p>Penerimaan Mahasiswa baru perguruan tinggi dilaksanakan melalui tiga jalur, yaitu SNMPTN, SBMPTN, dan Seleksi Mandiri. Lembaga pemerintah yang menyelenggarakan seleksi masuk perguruan tinggi adalah LTMPT (Lembaga Tes Masuk Perguruan Tinggi). Selain itu, pemerintah mengeluarkan kebijakan SSO (Single Sign On) yang artinya seluruh peserta harus membuat akun LTMPT dengan melakukan registrasi.</p><p><br>Buku WANGSIT (Pawang Soal Sulit) HOTS SBMPTN Saintek 2023 ini hadir untuk membekali siswa dalam persiapan ujian masuk perguruan tinggi negeri. Materi dalam buku ini bahas secara mendalam ditambah dengan drilling soal per topik bahasan dan pembahasan yang mudah dipahami. Selain itu, buku ini juga dilengkapi dengan soal prediksi dan try out SBMPTN yang akurat sehingga dapat memberikan gambaran kepada siswa tentang soal yang akan diujikan. Menjadi mahasiswa di PTN ternama memang bukan hal yang mudah dan bukan hal yang perlu dikhawatirkan, yang terpenting adalah usaha dan doa untuk menggapai impian tersebut.</p>',
+            //     'price' => '180000',
+            //     'photo' => 'Wangsit Hots Sbmptn Saintek 2023.jpg'
+            // ],
+            // [
+            //     'name' => 'Jujutsu Kaisen 07',
+            //     'category_id' => '1',
+            //     'description' => '<p>Jari Sukuna dan objek terkutuk tingkat tinggi Jutai Kusozu yang disimpan di akademi jujutsu berhasil dicuri oleh Mahito. Kusozu pun menjelma jadi ancaman baru. Tanpa mengetahui bahaya tersebut, Itadori dan yang lainnya pergi untuk memusnahkan jurei yang muncul di pintu gerbang. Akan tetapi...!?</p><p><br>&nbsp;</p>',
+            //     'price' => '20000',
+            //     'photo' => 'Jujutsu Kaisen 07.jpg'
+            // ],
+            // [
+            //     'name' => 'Demon Slayer - Kimetsu No Yaiba 09',
+            //     'category_id' => '1',
+            //     'description' => '<p>bersama "Otobashira" Tengen Uzui. Di sanalah ketiga istri Tengen yang juga "kunoichi", hilang kontak setelah menyusup untuk mengumpulkan informasi. Demi penyelidikan lebih lanjut, Tanjiro dan kawan-kawan harus menyusup dengan menyamar sebagai wanita...!! Tetapi lokasi iblisnya tetap belum ditemukan. Di tengah situasi membingungkan itu, tangan-tangan mematikan iblis menculik para "oiran"!! Mampukah Tanjiro dan kawan-kawan menemukan iblis tersebut!?</p>',
+            //     'price' => '20000',
+            //     'photo' => 'Demon Slayer - Kimetsu No Yaiba 09.jpg'
+            // ],
+            // [
+            //     'name' => 'Home Sweet Loan Almira Bastari - Batch 2',
+            //     'category_id' => '1',
+            //     'description' => '<p>Empat orang yang berteman sejak SMA bekerja di perusahaan yang sama meski beda nasib. Di usia 31 tahun, mereka berburu rumah idaman yang minimal nyerempet Jakarta.<br>Kaluna, pegawai Bagian Umum, yang gajinya tak pernah menyentuh dua digit. Gadis ini kerja sampingan sebagai model bibir, bermimpi membeli rumah demi keluar dari situasi tiga kepala keluarga yang bertumpuk di bawah satu atap. Di tengah perjuangannya menabung, Kaluna dirongrong oleh kekasihnya untuk pesta pernikahan mewah.<br>Tanisha, ibu satu anak yang menjalani Long Distance Marriage, mencari rumah murah dekat MRT yang juga bisa menampung mertuanya.<br>Kamamiya, yang berambisi menjadi selebgram, mencari apartemen cantik untuk diunggah ke media sosial demi memenuhi gengsinya agar bisa menikah dengan pria kaya.<br>Danan, anak tunggal tanpa beban yang akhirnya berpikir untuk berhenti hura-hura, dan membeli aset agar bisa pensiun dengan tenang.<br>Apakah keempat sahabat ini berhasil menemukan rumah yang mampu mereka cicil? Dan apakah Kaluna bisa membentuk keluarga yang ia impikan?</p>',
+            //     'price' => '71250',
+            //     'photo' => 'Home Sweet Loan Almira Bastari - Batch 2.jpg'
+            // ],
+            // [
+            //     'name' => 'Buku Top Rank Tes Skolastik SNBT 2023',
+            //     'category_id' => '1',
+            //     'description' => '<p>Top Rank Tes Skolastik Snbt 2023 Sesuai dengan PERMENDIKBUDRISTEK Nomor 48 Tahun 2022 TES SKOLASTIK: • Potensi Kognitif • Penalaran Matematika • Literasi dalam Bahasa Indonesia • Literasi dalam Bahasa Inggris Kisi-kisi Tes Skolastik SNBT 2023 sesuai dengan PERMENDIKBUDRISTEK Nomor 48 Tahun 2022 1. Potensi Kognitif Potensi Kognitif digunakan untuk menguji kemampuan berlogika dan menganalisis suatu masalah, terdiri atas: • Penalaran Logis • Penalaran Analitis • Penalaran Kognitif 2. Penalaran Matematika Terdiri atas: • Barisan Bilangan • Perbandingan, Aritmetika Sosial, dan Aljabar • Statistika dan Peluang • Fungsi, Persamaan Linier, dan Himpunan • Matematika Dasar 3. Literasi dalam Bahasa Indonesia 4. Literasi dalam Bahasa Inggris Buku TOP RANK TES SKOLASTIK 2023 memuat semua yang kamu butuhkan untuk menghadapi SNBT 2023, yaitu: 1. Pendalaman Materi Tes Skolastik, dilengkapi dengan Contoh Soal &amp; Pembahasan 2. Bank Soal Tes Skolastik Terlengkap plus Pembahasan 3. 3 Paket Tryout Tes Skolastik + Pembahasan 4. 3 Paket Ebook Tryout Tes Skolastik + Pembahasan 5. Ribuan Bank Soal Tes Skolastik + Pembahasan 6. Berbagai Bonus Aplikasi &amp; Tryout Online Pintar</p>',
+            //     'price' => '100000',
+            //     'photo' => 'Buku Top Rank Tes Skolastik SNBT 2023.jpg'
+            // ],
+            // [
+            //     'name' => 'Akulah Ahlinya AI - Artificial Intelligence',
+            //     'category_id' => '1',
+            //     'description' => '<p>Apa kalian pernah mendengar tentang AI atau kecerdasan buatan? Saat ini, negara-negara di seluruh dunia sedang berlomba menciptakan perangkat berteknologi canggih dengan menerapkan kecerdasan buatan di dalamnya. Perangkat-perangkat ini sangat dekat dengan kehidupan kita sehari-hari, seperti mesin cuci, pendingin ruangan, televisi, bahkan mobil yang mengendarai secara otomatis. Layaknya manusia yang dapat berpikir, kecerdasan buatan diharapkan dapat meningkatkan kualitas hidup manusia agar menjadi lebih nyaman. Di sisi lain, kecerdasan buatan akan menggantikan manusia di berbagai jenis pekerjaan dan memunculkan jenis-jenis pekerjaan baru terkaitnya. Ayo, kenali lebih dalam tentang kecerdasan buatan dan temukan pekerjaan apa saja yang akan muncul di masa depan!</p><p>Job Series mengandung filsafat pendidikan akan berusaha mewujudkan mimpi dan harapan secara terus menerus sehingga mimpi bisa menjadi nyata. Dengan komik pendidikan karier untuk anak dan remaja ini, setiap bagiannya membantu mengerti tentang pekerjaan, kemudian dengan mandiri mendorong untuk menetapkan harapannya.</p>',
+            //     'price' => '100000',
+            //     'photo' => 'Akulah Ahlinya AI - Artificial Intelligence.jpg'
+            // ],
+            // [
+            //     'name' => 'Mainan Push Bubble Fidget Pop It Fidget Toy Pop It Rainbow',
+            //     'category_id' => '17',
+            //     'description' => '<p>Stress relieve<br><br>Umur yang cocok: 4-13tahun<br>Bahan: Silicone food grade<br>Ukuran: 12.6 x 12.6x1.5cm<br><br>Bubble push pop ini dapat<br>- melatih keatifitas<br>- melatih kesabaran<br>- melatih motorik tangan<br><br>Oktagon Rainbow<br>Square Rainbow<br>Love Rainbow<br>Bulat Rainbow<br>Rainbow Rainbow</p>',
+            //     'price' => '7888',
+            //     'photo' => 'Mainan Push Bubble Fidget Pop It Fidget Toy Pop It Rainbow.jpg'
+            // ],
+            // [
+            //     'name' => 'UNO Card - Permainan',
+            //     'category_id' => '17',
+            //     'description' => '<p>Hiburan yang inovatif<br>Dirancang dengan ahli<br>Komponen berkualitas<br>Baru dalam kemasan pabrik<br><br>UNO adalah permainan kartu klasik yang mudah diambil dan tidak mungkin untuk diletakkan! Pemain bergiliran mencocokkan kartu di tangan mereka dengan kartu saat ini yang ditunjukkan di atas geladak baik dengan warna atau nomor. Kartu aksi khusus memberikan momen yang mengubah permainan saat mereka membantu Anda mengalahkan lawan Anda. Ini termasuk Skips, Reverses, Draw Twos, Wild dan Draw Four Wild. Anda akan menemukan 25 masing-masing warna (merah, hijau, biru, dan kuning), delapan kartu liar, tiga kartu yang dapat dikustomisasi, dan satu kartu Aturan Khusus di dalam dek 112 kartu. Jika Anda tidak dapat membuat pertandingan, Anda harus menarik dari tumpukan pusat! Dan ketika Anda memiliki satu kartu, jangan lupa berteriak "UNO!" Pemain pertama yang melepaskan diri dari semua kartu di tangan mereka sebelum lawan mereka menang. Sangat Menyenangkan untuk Semua Orang!</p>',
+            //     'price' => '62320',
+            //     'photo' => 'UNO Card - Permainan.jpg'
+            // ],
+            // [
+            //     'name' => 'Jurassic World Snap Squad Attitudes Triceratops - Mainan Action Figure',
+            //     'category_id' => '17',
+            //     'description' => '<ul><li>Koleksi skala kecil menampilkan tampilan sengit dinosaurus Jurassic World tetapi dengan desain gaya yang lucu berdasarkan adegan utama dari seri!</li><li>Mulut pada setiap gambar terbuka untuk "menjepret" jari, pakaian, dan aksesori lainnya sementara kaki menjuntai di bawah!</li><li>Klip dan mainkan dengan koleksi Jurassic World Snap Squad Attitudes atau taruh di ransel, paket makan siang, dan lainnya untuk dimainkan saat bepergian.</li><li>Ini adalah hadiah yang sempurna untuk usia 4 tahun ke atas, terutama penggemar Jurassic World dan mereka yang menyukai permainan aksi dan mengoleksi dinosaurus!</li></ul>',
+            //     'price' => '53175',
+            //     'photo' => 'Jurassic World Snap Squad Attitudes Triceratops - Mainan Action Figure.jpg'
+            // ],
+            // [
+            //     'name' => 'Mainan Anak Tebak Gambar Board Game Who is it',
+            //     'category_id' => '17',
+            //     'description' => '<p>Who Is It? adalah game yang sedang naik daun saat ini.</p><p><br>Cara bermain game sangat simple, masing-masing pemain mengambil kartu secara acak setelah itu pemain secara bergantian menanyakan ciri-ciri dari orang yang akan ditebak dan mulai menyempitkan tebakan.</p><p><br>Pemain yang pertama kali dapat menebak orang dengan benar yang akan menang.<br>Who is it game ini dimainkan oleh 2 orang sehingga cocok untuk Anda yang ingin menantang rival Anda untuk bertanding game. Sangat seru dimainkan pada acara-acara pesta atau acara keluarga.</p><p><br>Cara bermain game sangat simple, masing-masing pemain mengambil kartu secara acak setelah itu pemain secara bergantian menanyakan ciri-ciri dari orang yang akan ditebak dan mulai menyempitkan tebakan. Pemain yang pertama kali dapat menebak orang dengan benar yang akan menang.</p>',
+            //     'price' => '24990',
+            //     'photo' => 'Mainan Anak Tebak Gambar Board Game Who is it - Mainan Tebakan Gambar.jpg'
+            // ],
+            // [
+            //     'name' => 'Kleaner Tornado Mop',
+            //     'category_id' => '25',
+            //     'description' => '<p>Kleaner Spin Mop hadir dengan design praktis sehingga mengepel jadi lebih cepat, efisien, dan mudah. Tangan tidak lagi kotor dan bebas dari bakteri karena tidak perlu bilas / peras manual.<br>&nbsp;</p><p>Fitur:</p><p>-Kain pel dari bahan Microfiber<br>-Pengering dan tongkat pel berbahan stainless steel<br>-Dilengkapi roda besar kokoh dan tarikan agar mudah dibawa<br>-Dilengkapi dengan botol sabun pembersih<br>-Tangan tidak kotor, bilas dan peras tanpa tangan basah<br>-Tersedia lubang pembuangan air kotor<br>-Tongkat pel dilengkapi klip kunci yang mudah dipakai untuk atur ketinggian<br>-Harga refill yang terjangkau</p>',
+            //     'price' => '249000',
+            //     'photo' => 'Kleaner Tornado Mop.jpg'
+            // ],
+            // [
+            //     'name' => 'Guling Tidur Andalus Medium 100% Silicon Grade A',
+            //     'category_id' => '25',
+            //     'description' => '<p>Andalus Medium<br><br>Detail Produk:<br>- Cover : 100% Kain Cotton<br>- Isian : 100% Silicon HCS Grade A<br>- Ukuran : Bantal (48x65cm) &amp; Guling (30x86cm)<br>- Berat : B= 650g &amp; G= 700g<br><br>Fitur Produk:<br>- Anti Bakteri<br>- Tidak Berdebu<br>- Tidak Berbau<br>- Mudah dicuci<br><br>Kualitas Produk:<br>- Memiliki tingkat kepadatan yang tinggi<br>- Tingkat kekenyalan : Soft to Medium<br>- Memiliki karakter lembut dan lentur<br><br>Andalus Pillow merupakan bantal dan guling tidur berbagai jenis dengan kualitas premium. Produk ini diproduksi mandiri dan melewati proses quality control sehingga memiliki kualitas yang terjamin. Sangat nyaman digunakan dan dibuat sesuai standar kesehatan.</p>',
+            //     'price' => '35000',
+            //     'photo' => 'Guling Tidur Andalus Medium 100% Silicon Grade A.jpg'
+            // ],
+            // [
+            //     'name' => 'Dunlopillo Memory Foam Countour Ergo Original 60x40 cm',
+            //     'category_id' => '25',
+            //     'description' => '<p>Ukuran : 60x40x12 cm<br>Bahan : Knitting<br>Cover : White ( Campur Motif )<br>Berat Bantal : +/- 1,2 Kg<br><br>Material memory foam seperti squishy menyesuaikan bentuk kepala dan leher masing-masing pemakai.<br><br>Apa kelebihan bantal Memory Foam dengan bantal lainnya ?<br>✔ Bantal Memory Foam anti bakteri, anti fungal/jamur, anti alergi, karena pori-pori nya<br>sangat kecil sehingga tidak menyimpan debu dan bakteri sehingga aman bahkan untuk orang<br>yang alergi debu sekalipun.<br>✔ Bantal Memory Foam baik untuk yang mempunyai masalah tulang punggung/leher.<br><br>Manfaat Bantal contour Memory Foam :<br>✔ Mengurangi masalah susah tidur dan diklaim mampu mengurangi dengkuran<br>✔ Mencegah masalah tulang leher akibat salah tidur<br>✔ Mengurangi sakit pada syaraf terjepit saat tidur</p>',
+            //     'price' => '109000',
+            //     'photo' => 'Dunlopillo Memory Foam Countour Ergo Original 60x40 cm.png'
+            // ],
+            // [
+            //     'name' => 'Paket 2 Bantal Tidur Combo Pillow Sleepmax',
+            //     'category_id' => '25',
+            //     'description' => '<p>Sleep Max Combo Pillow adalah kualitas produk terbaik kami yang sudah kami rancang untuk dapat mendukung kualitas tidur anda sehari-hari menjadi lebih baik. Dan juga dibuat dengan material unggulan yang sudah kami pilihkan untuk kenyamanan diri anda pada saat beristirahat di rumah bersama keluarga tercinta.<br><br>Deskripsi Produk :<br>- Cover : Microtex yang halus dan nyaman serta membuat isi dakron dari Bantal tersebut tidak<br>akan keluar dari permukaan bahan<br>- Isi : 100% Premium Dakron terbaik tanpa campuran yang aman digunakan untuk kalangan<br>anak-anak hingga orang dewasa<br>- Ukuran : 45x65 Cm<br>- Berat : 650 gram<br>- Berat Total : 1.300 gram</p>',
+            //     'price' => '58000',
+            //     'photo' => 'Paket 2 Bantal Tidur Combo Pillow Sleepmax.jpg'
+            // ],
+            // [
+            //     'name' => 'Rak Kamar Mandi Dinding Rak Bumbu Dapur Stainless Steel Rak Tempel',
+            //     'category_id' => '25',
+            //     'description' => '<p>Rak Gantung Kamar Mandi Berbahan Stainless, Lengkap dengan lem perekat jadi dapat dipasang tanpa bor.<br>&nbsp;</p><p>Dimensi Produk :<br>1 tingkat. P x L x T : 40cm x 15cm x 16cm<br>2 tingkat. P x L x T : 40cm x 15cm x 36cm<br>3 tingkat.P x L x T : 40cm x 15cm x 56cm<br>&nbsp;</p><p>Fitur Produk :</p><ul><li>Desain terampil, penampilan elegan, struktur stabil dan tahan benturan</li><li>Desain terpisah, posisi ketinggian dapat diatur, bisa dipasang sesuai keinginan.</li><li>Desain kait bergerak memungkinkan kait bergerak ke kiri dan kanan untuk memudahkan penyimpanan.</li><li>Penahan pagar pembatas untuk mencegah benda jatuh.</li><li>Sudut dipoles dan halus mencegah goresan tangan.</li><li>Bor / bebas bor 2 metode pemasangan.</li><li>Produk sudah termasuk lem.</li></ul>',
+            //     'price' => '39000',
+            //     'photo' => 'Rak Kamar Mandi Dinding Rak Bumbu Dapur Stainless Steel Rak Tempel.jpg'
+            // ],
+            // [
+            //     'name' => 'UNISOH TOILET TRAINING ANAK',
+            //     'category_id' => '25',
+            //     'description' => '<p>* Toilet training anak / pispot anak<br>* Desain karakter lucu dan tidak pasaran<br>* Model oval<br>* Kapasitas isi 1,5 liter<br>* Ada 2 varian warna, BLUE &amp; PURPLE<br>* Bahan utama PP<br>* Detail ukuran ada di gambar<br>* Model unik dan tidak umum di pasaran</p>',
+            //     'price' => '96750',
+            //     'photo' => 'UNISOH TOILET TRAINING ANAK.jpg'
+            // ],
+            // [
+            //     'name' => 'HANDUK MICROFIBER NATUREHIKE NH20FS009 TRAVEL PORTABLE QUICK DRY',
+            //     'category_id' => '25',
+            //     'description' => '<p>Origin: CN(Origin)<br>Feature: Quick-Dry<br>Pattern: Plain Dyed<br>Material: Microfiber Fabric<br>Size: S: 100*30 cm L: 160*80cm<br>Weight: S: about 66.7g L: about 284.5g</p>',
+            //     'price' => '81880',
+            //     'photo' => 'HANDUK MICROFIBER NATUREHIKE NH20FS009 TRAVEL PORTABLE QUICK DRY.jpg'
+            // ],
+            // [
+            //     'name' => 'IKEA IRJA Set Rel Batang Gorden Putih 140cm',
+            //     'category_id' => '25',
+            //     'description' => '<p>Biaya perakitan atau assembly : Rp.199.000<br><br>Anda mendapat set batang gorden lengkap dengan finial dengan desain hasil akhir yang ringan dan bergaya. Apabila batangnya terlalu panjang, dapat dipotong sesuai panjang yang diinginkan.<br><br>Bahan :<br>Batang/ Braket dinding: Baja, Dilapis serbuk berpigmen<br>Finial: Plastik polipropilena<br><br>Petunjuk perawatan<br>Vacuum clean.<br>Lap bersih dengan kain kering.</p>',
+            //     'price' => '24900',
+            //     'photo' => 'IKEA IRJA Set Rel Batang Gorden Putih 140cm.jpg'
+            // ],
+            // [
+            //     'name' => 'Bean Bag Triangle Plus ISI Size Dewasa Motif Kotak Hitam',
+            //     'category_id' => '25',
+            //     'description' => '<p>Bean Bag Triangle Size Large Beanbag.Smoothies Motif Kotak Hitam PLUS ISI<br>- Mendapatkan 2 cover.<br>- Cover dalam kain satin.<br>- Cover luar kain katun halus.<br>- Zipper berkualitas.<br>- Jahitan sangat rapih.<br>- Isian bean bag 70% styrofoam dan 30% memoryfoam.<br>- Harga Ongkir sesuai aplikasi.<br>- Motif tidak mudah luntur.<br><br>Bahan kain:<br>Menggunakan kain katun pilihan, sehinga beanbag akan terasa halus<br>dan adem pastinya. Kain katun yang digunakan juga awet dan tidak<br>mudah robek.<br><br>Ukuran :<br>- Panjang : 120cm<br>- Lebar : 75cm<br>- Tinggi : 75cm</p>',
+            //     'price' => '153000',
+            //     'photo' => 'Bean Bag Triangle Plus ISI Size Dewasa Motif Kotak Hitam.jpg'
+            // ],
+            // [
+            //     'name' => 'Kraft Keju Cheddar 165g 2 pack - Free Cheddar Midi',
+            //     'category_id' => '18',
+            //     'description' => '<p>Kraft Keju Cheddar 165g 2 pack - Free Cheddar Midi<br><br>Isi paket :<br>2x Kraft Keju Cheddar 165g<br><br>*Free Midi Cheddar Keju 70g<br><br>Kraft Keju Cheddar, Dibuat menggunakan susu asli yang diambil dari sapi New Zealand pilihan yang hanya menghasilkan susu dengan kualitas tinggi dan terbaik. Susu sapi New Zealand ini kemudian diolah menjadi keju cheddar melalui pemrosesan menggunakan mesin berteknologi tinggi untuk memastikan kualitas. Keju cheddar dari Kraft memiliki kandungan Calcimilk, sehingga kaya akan Kalsium, sumber protein dan vitamin D.</p>',
+            //     'price' => '52000',
+            //     'photo' => 'Kraft Keju Cheddar 165g 2 pack - Free Cheddar Midi.jpg'
+            // ],
+            // [
+            //     'name' => 'Oreo Biskuit Sandwich Package Gratis Topi',
+            //     'category_id' => '18',
+            //     'description' => '<p>Oreo Biskuit Sandwich Package Gratis Topi - Camilan / Snack<br><br>Isi paket :<br>1x Oreo Biskuit Birthday Sprinkles<br>2x Oreo Vanilla 133g<br>1x Oreo Biskuit Krim Cokelat 133g<br>1x Oreo Strawberry 133g<br>1x Oreo Double Stuf 135.3g<br><br>* Free Topi Oreo<br><br>Oreo biskuit dengan krim yang tebal dan lezat memberikan kenikmatan dalam setiap gigitannya. Hadir dengan rasa yang nikmat, cocok untuk dibawa saat bepergian. Oreo juga sangat ideal dinikmati di segala suasana bersama keluarga maupun teman!</p>',
+            //     'price' => '45000',
+            //     'photo' => 'Oreo Biskuit Sandwich Package Gratis Topi.jpg'
+            // ],
+            // [
+            //     'name' => 'Cadbury Dairy Milk Chocolate Play Bundle - Snack Chocolate',
+            //     'category_id' => '18',
+            //     'description' => '<p>Cadbury Chocolate Play Bundle - Snack Chocolate<br><br>Isi paket :<br>1x Cadbury Dairy Milk Pop Heart 150G<br>1x Cadbury Coklat Dairy Milk 30gr<br>1x Mondelez Cadbury Lickables 20gr<br><br>Cadbury Dairy Milk Pop Heart merupakan coklat kombinasi susu yang lezat digabungkan menjadikan coklat batangan bercita rasa sempurna dan nikmat, cocok untuk temani momen spesial kamu agar lebih bermakna!<br><br>Cadbury dairy milk merupakan coklat kombinasi susu yang lezat digabungkan menjadikan coklat batangan bercita rasa sempurna dan nikmat!<br><br>Cadbury Lickables terbuat dari campuran coklat dan susu dalam bentuk cair dengan tambahan potongan biskuit Oreo didalamnya. Memiliki rasa manis dan lembut yang khas dari resep rahasia campuran antara coklat dan susu berkualitas baik!</p>',
+            //     'price' => '45000',
+            //     'photo' => 'Cadbury Dairy Milk Chocolate Play Bundle - Snack Chocolate.jpg'
+            // ],
+            // [
+            //     'name' => 'Ritz Cracker Biskuit Krakers 300 gr Twinpack',
+            //     'category_id' => '18',
+            //     'description' => '<p>Ritz Cracker Biskuit Krakers 300 gr Twinpack<br><br>Isi paket :<br>2x Mondelez Ritz Cracker Biskuit Krakers 300 gr<br>Expired Date: September 2023<br><br>Ritz Cracker dengan rasa asin yang ringan di satu sisi. Rasa asin dari biskuit dengan rasa keju menjadi kombinasi yang lezat.<br><br>Ritz Cracker :<br>- Tekstur yang renyah<br>- Diperkaya dengan kalsium dan zat besi<br>- Enak untuk camilan bergizi</p>',
+            //     'price' => '29300',
+            //     'photo' => 'Ritz Cracker Biskuit Krakers 300 gr Twinpack.jpg'
+            // ]
         ]);
     }
 }
