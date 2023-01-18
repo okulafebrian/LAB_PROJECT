@@ -1,4 +1,4 @@
-<x-app title="{{ $product->name }}">
+<x-app title="{!! $product->name !!}">
     <x-navbar :categories='$categories' :cartCount='$cartCount' />
 
     <div class="container py-4">

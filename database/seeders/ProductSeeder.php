@@ -13,7 +13,7 @@ class ProductSeeder extends Seeder
             [
                 'name' => 'COOGER Set Sapu 2 pcs',
                 'category_id' => '25',
-                'description' => '<p>COOGER Set Sapu / Sapu dan Pengki / Broom Set / Pembersih Lantai 2 pcs, Sapu dan pengki set kombinasi rumah tangga lembut dapat menjangkau rambut dan terdapat sisir pada pengki sehingga dapat memisahkan rambut rontok pada sapu, di design dengan segala kemudahan untuk pengguna dan terbuat dari bahan berkualitas tinggi sehingga akan tahan lama.<br><br>COOGER Set Sapu / Sapu dan Pengki / Broom Set / Pembersih Lantai 2 pcs<br>Bahan: Stainless Steel dan Plastik PP<br>Warna: Biru<br>Besar Produk: 37cm*23.5cm*86.5cm<br>Besar Kemasan: 27cm*10cm*37cm<br>Berat Bersih: 394g<br>Berat Kotor: 485g</p>',
+                'description' => 'COOGER Set Sapu / Sapu dan Pengki / Broom Set / Pembersih Lantai 2 pcs, Sapu dan pengki set kombinasi rumah tangga lembut dapat menjangkau rambut dan terdapat sisir pada pengki sehingga dapat memisahkan rambut rontok pada sapu, di design dengan segala kemudahan untuk pengguna dan terbuat dari bahan berkualitas tinggi sehingga akan tahan lama.',
                 'price' => '69900',
                 'photo' => 'Bagus Sapu Lantai (Floor Broom) Tipe 339.jpg'
             ],
@@ -27,7 +27,7 @@ class ProductSeeder extends Seeder
             [
                 'name' => 'BUKU MEDITATIONS - MARCUS AURELIUS',
                 'category_id' => '1',
-                'description' => '<p>Informasi Produk:<br>ISBN 978-623-242-215-5<br>Dimensi (P/L/T) 14 Cm / 20 Cm/ 0 Cm<br>Halaman 336<br>Jenis Cover Soft Cover</p><p>"Di dalam jurnal pribadi Kaisar Marcus Aurelius ini kita belajar sosok manusia biasa yang harus melawan kecemasan, kekecewaan, kegetiran, dan hawa nafsu yang juga adalah perjuangan kita sehari-hari." Henry Manampiring, Penulis Filosofi Teras</p>',
+                'description' => '"Di dalam jurnal pribadi Kaisar Marcus Aurelius ini kita belajar sosok manusia biasa yang harus melawan kecemasan, kekecewaan, kegetiran, dan hawa nafsu yang juga adalah perjuangan kita sehari-hari." Henry Manampiring, Penulis Filosofi Teras',
                 'price' => '71200',
                 'photo' => 'BUKU MEDITATIONS - MARCUS AURELIUS.png'
             ],
@@ -41,7 +41,7 @@ class ProductSeeder extends Seeder
             [
                 'name' => 'Logitech B170 Mouse Wireless - Black',
                 'category_id' => '15',
-                'description' => '<p>B170<br>Kemudahan plug-and-play<br><br>KEMUDAHAN PLUG &amp; PLAY<br>B170 selalu siap saat kamu memerlukannya. Colokkan saja receiver ke sebuah port USB di perangkatmu agar aktif dalam hitungan detik. Kontrol kursornya yang kecil dan mulus menjadikannya cocok untuk bekerja di ruang kecil dan meja yang penuh barang. Nikmatilah dunia wireless!<br><br>TANGAN MANA PUN, DI MANA SAJA<br>B170 wireless yang ringkas ini memiliki desain yang sangat cerdas sehingga dapat dimasukkan ke tas laptop sehingga kamu bisa bekerja di mana pun, tak peduli apakah kamu kidal atau kanan.<br><br>WIRELESS PLUG &amp; PLAY<br>Kebebasan wireless hingga maksimal 10 meter dengan receiver USB yang kuat dan andal. Artinya, tak ada jeda, tanpa terputus. B170 kompatibel dengan Windows®, macOS, Chrome OS™, dan Linux®, serta langsung dapat digunakan ketika kamu mencolokkan receiver USB ke komputer ataur laptopmu.</p>',
+                'description' => 'Colokkan saja receiver ke sebuah port USB di perangkatmu agar aktif dalam hitungan detik. Kontrol kursornya yang kecil dan mulus menjadikannya cocok untuk bekerja di ruang kecil dan meja yang penuh barang. Nikmatilah dunia wireless! TANGAN MANA PUN, DI MANA SAJA',
                 'price' => '108000',
                 'photo' => 'Logitech B170 Mouse Wireless - Black.jpg'
             ],
