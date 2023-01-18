@@ -31,8 +31,7 @@
                             <div class="row">
                                 <label for="quantity" class="col-form-label col-lg-3 col-md-4 col-7">Quantity</label>
                                 <div class="col-lg-5 col-md-7 col">
-                                    <input type="text" class="input-spinner" step="1" id="quantity"
-                                        value="1" min="1">
+                                    <input type="number" class="form-control" id="quantity" value="1">
                                 </div>
                             </div>
                         </div>
